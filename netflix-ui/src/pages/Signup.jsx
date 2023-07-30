@@ -34,8 +34,8 @@ export default function Signup() {
         <div className="body flex column a-center j-center">
             <div className="text flex column">
                 <h1>Welcome to Notflix</h1>
-                <h4>Unlimited movies, TV Shows amd more </h4>
-                <h6>Readyb to watch? Enter your email to create or restart your membership.</h6>
+                <h4>Unlimited movies, TV Shows and more </h4>
+                <h6>Ready to watch? Enter your email to create or restart your membership.</h6>
             </div>
             <div className="form">
                 <input type="email" placeholder="Email Address" name='email' value={formValues.email} onChange={(e)=>setFormValues({...formValues,[e.target.name]:e.target.value})}/>
